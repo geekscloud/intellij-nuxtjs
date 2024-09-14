@@ -34,7 +34,7 @@ jobs:
         uses: nekofar/action-usage-guard@develop
         with:
           # GitHub access token for authentication.
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           # Defines the threshold for the usage guard.
           threshold: 70
 
